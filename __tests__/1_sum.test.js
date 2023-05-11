@@ -1,5 +1,5 @@
 const sum = require("../challenges/1_sum");
 
-test.skip("adds 1 + 2 to equal 3", () => {
+it.skip("adds 1 + 2 to equal 3", () => {
   expect(sum(1, 2)).toBe(3);
 });

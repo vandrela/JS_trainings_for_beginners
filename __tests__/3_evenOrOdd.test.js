@@ -1,6 +1,6 @@
 const even_or_odd = require("../challenges/3_evenOrOdd");
 
-describe.skip("even_or_odd", () => {
+it.skip("even_or_odd", () => {
   it('should return "Even" for even numbers', () => {
     expect(even_or_odd(0)).toBe("Even");
     expect(even_or_odd(2)).toBe("Even");

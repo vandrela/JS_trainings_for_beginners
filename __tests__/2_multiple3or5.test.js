@@ -1,7 +1,7 @@
 const multiple3or5 = require("../challenges/2_multiple3or5");
 const { describe } = require("@jest/globals");
 
-describe.skip("Multiples of 3 or 5", () => {
+it.skip("Multiples of 3 or 5", () => {
   it("should return the sum of all multiples of 3 or 5 below the number passed in", () => {
     expect(multiple3or5(10)).toBe(23);
     expect(multiple3or5(16)).toBe(60);
